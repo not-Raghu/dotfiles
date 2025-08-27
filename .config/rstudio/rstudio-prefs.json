@@ -1,0 +1,7 @@
+{
+    "jobs_tab_visibility": "closed",
+    "initial_working_directory": "~",
+    "editor_theme": "Clouds Midnight",
+    "posix_terminal_shell": "bash",
+    "editor_keybindings": "vim"
+}
