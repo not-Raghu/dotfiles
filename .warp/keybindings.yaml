@@ -1,0 +1,8 @@
+---
+"pane_group:navigate_down": shift-cmd-J
+"pane_group:navigate_up": shift-cmd-K
+"editor_view:clear_lines": none
+"editor:delete_word_left": alt-backspace
+"pane_group:navigate_right": shift-cmd-L
+"terminal:executing_command_delete_line_end": cmd-backspace
+"pane_group:navigate_left": shift-cmd-H
