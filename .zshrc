@@ -17,3 +17,4 @@ alias ff="fastfetch"
 
 alias rm="trash"
 
+
