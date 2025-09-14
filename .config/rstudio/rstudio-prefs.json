@@ -3,5 +3,6 @@
     "initial_working_directory": "~",
     "editor_theme": "Clouds Midnight",
     "posix_terminal_shell": "bash",
-    "editor_keybindings": "vim"
+    "editor_keybindings": "vim",
+    "source_with_echo": true
 }

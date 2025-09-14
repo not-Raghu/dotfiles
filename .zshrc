@@ -8,7 +8,6 @@ alias la="lsd -a"
 alias lla="lsd -la"
 
 
-
 #fastfetch - get system data and a image on the console
 alias ff="fastfetch"
 
