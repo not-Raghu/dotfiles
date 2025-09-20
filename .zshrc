@@ -16,4 +16,7 @@ alias ff="fastfetch"
 
 alias rm="trash"
 
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+eval "$(starship init zsh)"
+
 

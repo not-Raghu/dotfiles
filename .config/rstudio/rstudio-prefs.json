@@ -4,5 +4,6 @@
     "editor_theme": "Clouds Midnight",
     "posix_terminal_shell": "bash",
     "editor_keybindings": "vim",
-    "source_with_echo": true
+    "source_with_echo": true,
+    "show_terminal_tab": false
 }
