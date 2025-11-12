@@ -73,7 +73,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme slate
 catch
 endtry
 
@@ -115,7 +115,6 @@ set si
 set wrap
 
 " Relative line numbers (hybrid line numbers)
-set number
 set relativenumber
 
 " Recalculate relative numbers when entering window
@@ -123,8 +122,8 @@ augroup numbertoggle
     autocmd!
     autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
     autocmd BufEnter,FocusGained,InsertLeave * set number
-    autocmd FocusLost,InsertEnter * set norelativenumber
-    autocmd FocusLost,InsertEnter * set number
+    " autocmd FocusLost,InsertEnter * set norelativenumber
+    " autocmd FocusLost,InsertEnter * set number
 augroup END
 
 
@@ -261,6 +260,8 @@ map <leader>pp :setlocal paste!<cr>
 
 " Thick cursor in normal mode
 set cursorline
+" copy to clipboard rather than vim clipboard buffer.
+set clipboard=unnamed
 
 " For GUI versions (MacVim, gVim, etc.)
 if has("gui_running")
@@ -325,3 +326,4 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+

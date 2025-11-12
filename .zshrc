@@ -13,10 +13,11 @@ alias ff="fastfetch"
 
 #trash - replacing rm (trash rm permenant deletes, trash sends it to bin 
 #(brew install trash)
-
 alias rm="trash"
 
 #export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 #eval "$(starship init zsh)"
 
 alias fzfv="fzf --bind 'enter:become(vim {})'"
+
+alias ask="$HOME/Desktop/error\ throwers/term-gpt/main"
