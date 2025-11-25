@@ -26,3 +26,8 @@ alias run="-o main main.c"
 
 #sowong - https://github.com/tsoding/sowon
 alias sowon="$HOME/Desktop/error\ throwers/clones/sowon/sowon"
+
+#dictionary-service
+alias define="python3 $HOME/Desktop/error\ throwers/dict/main.py"
+
+alias eth="cd $HOME/Desktop/error\ throwers"
