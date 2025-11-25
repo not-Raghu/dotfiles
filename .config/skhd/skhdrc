@@ -1,0 +1,2 @@
+#Ghostty
+cmd - return : open -na :w/Applications/Ghostty.app/Contents/MacOS/ghostty

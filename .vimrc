@@ -73,7 +73,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme slate
+    colorscheme zaibatsu 
 catch
 endtry
 
@@ -193,7 +193,7 @@ vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
 vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
 if has("mac") || has("macunix")
-  nmap <D-j> <M-j>
+
   nmap <D-k> <M-k>
   vmap <D-j> <M-j>
   vmap <D-k> <M-k>
@@ -242,7 +242,6 @@ map <leader>sn ]s
 map <leader>sp [s
 map <leader>sa zg
 map <leader>s? z=
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc

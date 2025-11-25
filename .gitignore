@@ -1,3 +1,4 @@
 ./config/qBittorrent
 ./config/rstudio
 ./config/github-copilot
+.DS_Store

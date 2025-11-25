@@ -1,105 +1,117 @@
 {
-  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.2",
   "schemes" : [
     {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x9d",
+          "productName" : "DA V2 X",
+          "vendorID" : "0x68e"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.975,
+        "disableAcceleration" : true,
+        "redirectsToScroll" : false,
+        "speed" : "unset"
+      },
       "scrolling" : {
-        "reverse" : {
-          "vertical" : true
+        "acceleration" : {
+          "vertical" : 1
         },
         "distance" : {
           "vertical" : "auto"
         },
-        "acceleration" : {
-          "vertical" : 1
+        "reverse" : {
+          "vertical" : true
         },
         "speed" : {
           "vertical" : 0
         }
-      },
-      "pointer" : {
-        "speed" : 0.0689655172413792768,
-        "acceleration" : 2.4885,
-        "disableAcceleration" : false
-      },
-      "if" : {
-        "device" : {
-          "productID" : "0x9d",
-          "productName" : "DA V2 X",
-          "vendorID" : "0x68e",
-          "category" : "mouse"
-        }
       }
     },
     {
-      "pointer" : {
-        "speed" : 0.0195,
-        "acceleration" : 0.2426
-      },
-      "if" : {
-        "device" : {
-          "category" : "mouse",
-          "productName" : "DA V2 X",
-          "vendorID" : "0x68e",
-          "productID" : "0x9d"
-        },
-        "app" : "com.apple.systempreferences"
-      }
-    },
-    {
-      "pointer" : {
-        "speed" : 0.0206
-      },
-      "if" : {
-        "display" : "Built-in Retina Display",
-        "device" : {
-          "category" : "mouse",
-          "productName" : "DA V2 X",
-          "productID" : "0x9d",
-          "vendorID" : "0x68e"
-        }
-      }
-    },
-    {
-      "pointer" : {
-        "speed" : 0.0689655172413792768,
-        "acceleration" : 0.6875,
-        "disableAcceleration" : false
-      },
       "if" : {
         "app" : "com.apple.systempreferences",
         "device" : {
           "category" : "mouse",
-          "vendorID" : "0x68e",
           "productID" : "0x9d",
-          "productName" : "DA V2 X"
-        },
-        "display" : "Built-in Retina Display"
+          "productName" : "DA V2 X",
+          "vendorID" : "0x68e"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.2426,
+        "speed" : 0.0195
       }
     },
     {
-      "scrolling" : {
-        "speed" : {
-          "vertical" : 0
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x9d",
+          "productName" : "DA V2 X",
+          "vendorID" : "0x68e"
         },
+        "display" : "Built-in Retina Display"
+      },
+      "pointer" : {
+        "speed" : 0.0206
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.apple.systempreferences",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x9d",
+          "productName" : "DA V2 X",
+          "vendorID" : "0x68e"
+        },
+        "display" : "Built-in Retina Display"
+      },
+      "pointer" : {
+        "acceleration" : 0.6875,
+        "disableAcceleration" : false,
+        "speed" : 0.0689655172413792768
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "trackpad",
+          "productID" : "0x0",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "vendorID" : "0x0"
+        }
+      },
+      "scrolling" : {
         "modifiers" : {
           "vertical" : {
             "control" : {
               "type" : "zoom"
             }
           }
-        }
-      },
-      "if" : {
-        "device" : {
-          "category" : "trackpad",
-          "productName" : "Apple Internal Keyboard \/ Trackpad",
-          "vendorID" : "0x0",
-          "productID" : "0x0"
+        },
+        "speed" : {
+          "vertical" : 0
         }
       }
     },
     {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xfa23",
+          "productName" : "2.4G Receiver",
+          "vendorID" : "0x25a7"
+        }
+      },
       "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1.37
+        },
         "modifiers" : {
           "vertical" : {
             "control" : {
@@ -107,35 +119,55 @@
             }
           }
         },
-        "acceleration" : {
-          "vertical" : 1.37
-        },
         "reverse" : {
           "vertical" : false
-        }
-      },
-      "if" : {
-        "device" : {
-          "productName" : "2.4G Receiver",
-          "vendorID" : "0x25a7",
-          "productID" : "0xfa23",
-          "category" : "mouse"
         }
       }
     },
     {
-      "scrolling" : {
-        "reverse" : true
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x400",
+          "productName" : "USB Optical Mouse ",
+          "vendorID" : "0x30fa"
+        }
       },
       "pointer" : {
         "acceleration" : 0.6468
       },
+      "scrolling" : {
+        "reverse" : true
+      }
+    },
+    {
       "if" : {
         "device" : {
-          "productID" : "0x400",
-          "vendorID" : "0x30fa",
-          "productName" : "USB Optical Mouse ",
-          "category" : "mouse"
+          "category" : "mouse",
+          "productID" : "0x9c",
+          "productName" : "Razer DeathAdder V2 X HyperSpeed",
+          "serialNumber" : "000000000000",
+          "vendorID" : "0x1532"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.4163,
+        "disableAcceleration" : false,
+        "redirectsToScroll" : false,
+        "speed" : 0.2882
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "reverse" : {
+          "vertical" : false
+        },
+        "speed" : {
+          "vertical" : 0
         }
       }
     }

@@ -21,3 +21,8 @@ alias rm="trash"
 alias fzfv="fzf --bind 'enter:become(vim {})'"
 
 alias ask="$HOME/Desktop/error\ throwers/term-gpt/main"
+
+alias run="-o main main.c"
+
+#sowong - https://github.com/tsoding/sowon
+alias sowon="$HOME/Desktop/error\ throwers/clones/sowon/sowon"
