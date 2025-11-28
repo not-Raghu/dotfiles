@@ -3,10 +3,7 @@
 
 # To get syntax highlighting in neovim, see
 # ~/github/dotfiles-latest/neovim/neobean/lua/plugins/ghostty.lua
-
-# HACK: How to setup the Ghostty terminal, is it just hype? READ PINNED MESSAGE
-# https://youtu.be/rCiq5CyFFhA
-
+#
 # No way of reloading config via command yet, only via keymap cmd+shift+,
 # Created a script to do it so that its reloaded with my colorscheme selector
 
@@ -24,6 +21,7 @@
 # the configuration file will be ignored.
 config-file = ghostty-theme
 
+#adds some funny effects when in a file in nvim 🤣
 # Some shaders can be found in this repo, they're usually uploaded to discord
 # https://github.com/hackrmomo/ghostty-shaders
 # custom-shader = shaders/animated-gradient-shader.glsl
@@ -33,7 +31,7 @@ config-file = ghostty-theme
 # custom-shader = shaders/bloom075.glsl
 # custom-shader = shaders/bloom060.glsl
 # custom-shader = shaders/bloom050.glsl
-custom-shader = shaders/bloom025.glsl
+# custom-shader = shaders/bloom025.glsl
 # custom-shader = shaders/bloom050.glsl
 # custom-shader = shaders/bloom060.glsl
 # custom-shader = shaders/bloom075.glsl
@@ -51,7 +49,7 @@ custom-shader = shaders/bloom025.glsl
 # custom-shader = shaders/inside-the-matrix.glsl
 # custom-shader = shaders/just-snow.glsl
 # custom-shader = shaders/matrix-hallway.glsl
-# custom-shader = shaders/negative.glsl
+## custom-shader = shaders/negative.glsl
 # custom-shader = shaders/retro-terminal.glsl
 # custom-shader = shaders/smoke-and-ghost.glsl
 # custom-shader = shaders/sparks-from-fire.glsl
@@ -62,8 +60,8 @@ custom-shader = shaders/bloom025.glsl
 # custom-shader = shaders/underwater.glsl
 # custom-shader = shaders/water.glsl
 # custom-shader = shaders/cursor_blaze.glsl
-custom-shader = shaders/cursor_blaze_no_trail.glsl
-custom-shader = shaders/cursor_smear.glsl
+##custom-shader = shaders/cursor_blaze_no_trail.glsl
+##custom-shader = shaders/cursor_smear.glsl
 # custom-shader = shaders/cursor_smear_fade.glsl
 
 # The command to run, usually a shell. If this is not an absolute path, it'll
@@ -271,7 +269,7 @@ keybind = super+r=reload_config
 #    The `macos-icon-ghost-color` and `macos-icon-screen-color`
 #    configurations are required for this style.
 # 
-macos-icon = official
+macos-icon = xray
 
 # The opacity level (opposite of transparency) of the background. A value of
 # 1 is fully opaque and a value of 0 is fully transparent. A value less than 0
