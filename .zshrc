@@ -20,14 +20,23 @@ alias rm="trash"
 
 alias fzfv="fzf --bind 'enter:become(vim {})'"
 
-alias ask="$HOME/Desktop/error\ throwers/term-gpt/main"
+#alias ask="$HOME/Desktop/error\ throwers/term-gpt/main"
 
-alias run="-o main main.c"
-
-#sowong - https://github.com/tsoding/sowon
-alias sowon="$HOME/Desktop/error\ throwers/clones/sowon/sowon"
+#sowon - https://github.com/tsoding/sowon
+#alias sowon="$HOME/Desktop/error\ throwers/clones/sowon/sowon"
 
 #dictionary-service
-alias define="python3 $HOME/Desktop/error\ throwers/dict/main.py"
+alias define="python3 $HOME/Desktop/error\ throwers/define/main.py"
 
+#navigte from anywhere to project that contains my projects
 alias eth="cd $HOME/Desktop/error\ throwers"
+
+#pbcopy
+#alias copy="pbcopy"
+
+
+# Added by Antigravity
+#export PATH="/Users/raghu/.antigravity/antigravity/bin:$PATH"
+#export PATH=~/.npm-global/bin:$PATH
+
+#. "$HOME/.local/bin/env"

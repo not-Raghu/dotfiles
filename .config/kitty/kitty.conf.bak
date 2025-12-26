@@ -144,6 +144,6 @@ map cmd+right send_text all \x05   ap cmd+right send_text all \x05
 
 
 # BEGIN_KITTY_THEME
-# Ghostty Default
+# 3024 Day
 include current-theme.conf
 # END_KITTY_THEME

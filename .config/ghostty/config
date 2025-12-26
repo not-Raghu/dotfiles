@@ -115,7 +115,7 @@ config-file = ghostty-theme
 # 
 # Changing this configuration at runtime will only affect new terminals, i.e.
 # new windows, tabs, etc.
-# 
+window-new-tab-position = end
 # To set a different left and right padding, specify two numerical values
 # separated by a comma. For example, `window-padding-x = 2,4` will set the
 # left padding to 2 and the right padding to 4. If you want to set both
@@ -163,7 +163,7 @@ macos-titlebar-style = hidden
 
 # Confirms that a surface should be closed before closing it. This defaults to
 # true. If set to false, surfaces will close without any confirmation.
-confirm-close-surface = false
+confirm-close-surface = true
 
 # Toggle the "quick" terminal. The quick terminal is a terminal that
 # appears on demand from a keybinding, often sliding in from a screen
@@ -325,3 +325,11 @@ background-blur = true
 # on. A value outside of the range 0.15 to 1 will be clamped to the nearest
 # valid value.
 unfocused-split-opacity = 0.7
+
+
+keybind = all:cmd+shift+j=resize_split:down,10
+keybind = all:cmd+shift+k=resize_split:up,10
+keybind = all:cmd+shift+h=resize_split:left,10
+keybind = all:cmd+shift+l=resize_split:right,10
+
+

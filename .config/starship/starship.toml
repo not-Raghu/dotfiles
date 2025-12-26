@@ -1,14 +1,32 @@
-#config goes here, too lazy to to rn
-# Get editor completions based on the config schema
-"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = false 
+command_timeout = 0
+scan_timeout = 0
+format = "$username$directory"
 
-# Inserts a blank line between shell prompts
-add_newline = true
-
-# Replace the '❯' symbol in the prompt with '➜'
-[character] # The name of the module we are configuring is 'character'
-success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
-
-# Disable the package module, hiding it from the prompt completely
-[package]
+[username]
+format = "[$user]($style_user)@"
+style_user = "bold #FFB86C" # soft orange
 disabled = true
+
+[directory]
+style = "bold #79D4FF" # cyan-ish
+read_only = "🔒"
+read_only_style = "bold #FF6B6B"
+truncation_length = 3
+truncate_to_repo = true
+truncation_symbol = "…/"
+format = "[$path]($style)"
+
+[character]
+success_symbol = "[❯](bold #A6E22E)"
+error_symbol = "[✖](bold #FF6B6B)"
+vimcmd_symbol = "[❮](bold #A6E22E)"
+
+[time]
+format = "on [$time]($style)"
+style = "#6272A4"
+
+[cmd_duration]
+min_time = 2000
+format = "took [$duration]($style)"
+style = "bold #6272A4"
